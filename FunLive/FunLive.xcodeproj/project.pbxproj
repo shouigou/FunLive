@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE161DD99EB70036F144 /* AppDelegate.swift */; };
+		BEF1FE191DD99EB70036F144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE181DD99EB70036F144 /* ViewController.swift */; };
+		BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE1A1DD99EB70036F144 /* Main.storyboard */; };
+		BEF1FE1F1DD99EB70036F144 /* FunLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE1D1DD99EB70036F144 /* FunLive.xcdatamodeld */; };
+		BEF1FE211DD99EB70036F144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE201DD99EB70036F144 /* Assets.xcassets */; };
+		BEF1FE241DD99EB70036F144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */; };
+		BEF1FE2F1DD99EB70036F144 /* FunLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE2E1DD99EB70036F144 /* FunLiveTests.swift */; };
+		BEF1FE3A1DD99EB70036F144 /* FunLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE391DD99EB70036F144 /* FunLiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF1FE2B1DD99EB70036F144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF1FE0B1DD99EB70036F144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF1FE121DD99EB70036F144;
+			remoteInfo = FunLive;
+		};
+		BEF1FE361DD99EB70036F144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF1FE0B1DD99EB70036F144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF1FE121DD99EB70036F144;
+			remoteInfo = FunLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEF1FE131DD99EB70036F144 /* FunLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF1FE161DD99EB70036F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF1FE181DD99EB70036F144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF1FE1B1DD99EB70036F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEF1FE1E1DD99EB70036F144 /* FunLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunLive.xcdatamodel; sourceTree = "<group>"; };
+		BEF1FE201DD99EB70036F144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF1FE231DD99EB70036F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF1FE251DD99EB70036F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF1FE2A1DD99EB70036F144 /* FunLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF1FE2E1DD99EB70036F144 /* FunLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLiveTests.swift; sourceTree = "<group>"; };
+		BEF1FE301DD99EB70036F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF1FE351DD99EB70036F144 /* FunLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF1FE391DD99EB70036F144 /* FunLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLiveUITests.swift; sourceTree = "<group>"; };
+		BEF1FE3B1DD99EB70036F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF1FE101DD99EB70036F144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE271DD99EB70036F144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE321DD99EB70036F144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF1FE0A1DD99EB70036F144 = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE151DD99EB70036F144 /* FunLive */,
+				BEF1FE2D1DD99EB70036F144 /* FunLiveTests */,
+				BEF1FE381DD99EB70036F144 /* FunLiveUITests */,
+				BEF1FE141DD99EB70036F144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF1FE141DD99EB70036F144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE131DD99EB70036F144 /* FunLive.app */,
+				BEF1FE2A1DD99EB70036F144 /* FunLiveTests.xctest */,
+				BEF1FE351DD99EB70036F144 /* FunLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF1FE151DD99EB70036F144 /* FunLive */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE161DD99EB70036F144 /* AppDelegate.swift */,
+				BEF1FE181DD99EB70036F144 /* ViewController.swift */,
+				BEF1FE1A1DD99EB70036F144 /* Main.storyboard */,
+				BEF1FE201DD99EB70036F144 /* Assets.xcassets */,
+				BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */,
+				BEF1FE251DD99EB70036F144 /* Info.plist */,
+				BEF1FE1D1DD99EB70036F144 /* FunLive.xcdatamodeld */,
+			);
+			path = FunLive;
+			sourceTree = "<group>";
+		};
+		BEF1FE2D1DD99EB70036F144 /* FunLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE2E1DD99EB70036F144 /* FunLiveTests.swift */,
+				BEF1FE301DD99EB70036F144 /* Info.plist */,
+			);
+			path = FunLiveTests;
+			sourceTree = "<group>";
+		};
+		BEF1FE381DD99EB70036F144 /* FunLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE391DD99EB70036F144 /* FunLiveUITests.swift */,
+				BEF1FE3B1DD99EB70036F144 /* Info.plist */,
+			);
+			path = FunLiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF1FE121DD99EB70036F144 /* FunLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF1FE3E1DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLive" */;
+			buildPhases = (
+				BEF1FE0F1DD99EB70036F144 /* Sources */,
+				BEF1FE101DD99EB70036F144 /* Frameworks */,
+				BEF1FE111DD99EB70036F144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunLive;
+			productName = FunLive;
+			productReference = BEF1FE131DD99EB70036F144 /* FunLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF1FE291DD99EB70036F144 /* FunLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF1FE411DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveTests" */;
+			buildPhases = (
+				BEF1FE261DD99EB70036F144 /* Sources */,
+				BEF1FE271DD99EB70036F144 /* Frameworks */,
+				BEF1FE281DD99EB70036F144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF1FE2C1DD99EB70036F144 /* PBXTargetDependency */,
+			);
+			name = FunLiveTests;
+			productName = FunLiveTests;
+			productReference = BEF1FE2A1DD99EB70036F144 /* FunLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF1FE341DD99EB70036F144 /* FunLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF1FE441DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveUITests" */;
+			buildPhases = (
+				BEF1FE311DD99EB70036F144 /* Sources */,
+				BEF1FE321DD99EB70036F144 /* Frameworks */,
+				BEF1FE331DD99EB70036F144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF1FE371DD99EB70036F144 /* PBXTargetDependency */,
+			);
+			name = FunLiveUITests;
+			productName = FunLiveUITests;
+			productReference = BEF1FE351DD99EB70036F144 /* FunLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF1FE0B1DD99EB70036F144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jp.co.shouigou;
+				TargetAttributes = {
+					BEF1FE121DD99EB70036F144 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BEF1FE291DD99EB70036F144 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEF1FE121DD99EB70036F144;
+					};
+					BEF1FE341DD99EB70036F144 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEF1FE121DD99EB70036F144;
+					};
+				};
+			};
+			buildConfigurationList = BEF1FE0E1DD99EB70036F144 /* Build configuration list for PBXProject "FunLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF1FE0A1DD99EB70036F144;
+			productRefGroup = BEF1FE141DD99EB70036F144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF1FE121DD99EB70036F144 /* FunLive */,
+				BEF1FE291DD99EB70036F144 /* FunLiveTests */,
+				BEF1FE341DD99EB70036F144 /* FunLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF1FE111DD99EB70036F144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF1FE241DD99EB70036F144 /* LaunchScreen.storyboard in Resources */,
+				BEF1FE211DD99EB70036F144 /* Assets.xcassets in Resources */,
+				BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE281DD99EB70036F144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE331DD99EB70036F144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF1FE0F1DD99EB70036F144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF1FE1F1DD99EB70036F144 /* FunLive.xcdatamodeld in Sources */,
+				BEF1FE191DD99EB70036F144 /* ViewController.swift in Sources */,
+				BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE261DD99EB70036F144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF1FE2F1DD99EB70036F144 /* FunLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF1FE311DD99EB70036F144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF1FE3A1DD99EB70036F144 /* FunLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEF1FE2C1DD99EB70036F144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF1FE121DD99EB70036F144 /* FunLive */;
+			targetProxy = BEF1FE2B1DD99EB70036F144 /* PBXContainerItemProxy */;
+		};
+		BEF1FE371DD99EB70036F144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF1FE121DD99EB70036F144 /* FunLive */;
+			targetProxy = BEF1FE361DD99EB70036F144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEF1FE1A1DD99EB70036F144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF1FE1B1DD99EB70036F144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF1FE231DD99EB70036F144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF1FE3C1DD99EB70036F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF1FE3D1DD99EB70036F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF1FE3F1DD99EB70036F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEF1FE401DD99EB70036F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BEF1FE421DD99EB70036F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLive.app/FunLive";
+			};
+			name = Debug;
+		};
+		BEF1FE431DD99EB70036F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunLive.app/FunLive";
+			};
+			name = Release;
+		};
+		BEF1FE451DD99EB70036F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FunLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunLive;
+			};
+			name = Debug;
+		};
+		BEF1FE461DD99EB70036F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FunLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FunLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF1FE0E1DD99EB70036F144 /* Build configuration list for PBXProject "FunLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF1FE3C1DD99EB70036F144 /* Debug */,
+				BEF1FE3D1DD99EB70036F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF1FE3E1DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF1FE3F1DD99EB70036F144 /* Debug */,
+				BEF1FE401DD99EB70036F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF1FE411DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF1FE421DD99EB70036F144 /* Debug */,
+				BEF1FE431DD99EB70036F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF1FE441DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF1FE451DD99EB70036F144 /* Debug */,
+				BEF1FE461DD99EB70036F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEF1FE1D1DD99EB70036F144 /* FunLive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEF1FE1E1DD99EB70036F144 /* FunLive.xcdatamodel */,
+			);
+			currentVersion = BEF1FE1E1DD99EB70036F144 /* FunLive.xcdatamodel */;
+			path = FunLive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEF1FE0B1DD99EB70036F144 /* Project object */;
+}
