@@ -1,0 +1,6 @@
+framework module Pods_FunLive {
+  umbrella header "Pods-FunLive-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B612400C96E0ABEF9FD4822A /* Pods_FunLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F43C2621122369B00B12D7 /* Pods_FunLive.framework */; };
 		BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE161DD99EB70036F144 /* AppDelegate.swift */; };
-		BEF1FE191DD99EB70036F144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE181DD99EB70036F144 /* ViewController.swift */; };
+		BEF1FE191DD99EB70036F144 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE181DD99EB70036F144 /* MainViewController.swift */; };
 		BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE1A1DD99EB70036F144 /* Main.storyboard */; };
 		BEF1FE1F1DD99EB70036F144 /* FunLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE1D1DD99EB70036F144 /* FunLive.xcdatamodeld */; };
 		BEF1FE211DD99EB70036F144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE201DD99EB70036F144 /* Assets.xcassets */; };
 		BEF1FE241DD99EB70036F144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */; };
 		BEF1FE2F1DD99EB70036F144 /* FunLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE2E1DD99EB70036F144 /* FunLiveTests.swift */; };
 		BEF1FE3A1DD99EB70036F144 /* FunLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE391DD99EB70036F144 /* FunLiveUITests.swift */; };
+		BEF1FE991DD9A6D10036F144 /* AmuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE531DD9A6D10036F144 /* AmuseViewController.swift */; };
+		BEF1FE9A1DD9A6D10036F144 /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE541DD9A6D10036F144 /* FunnyViewController.swift */; };
+		BEF1FE9B1DD9A6D10036F144 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE551DD9A6D10036F144 /* GameViewController.swift */; };
+		BEF1FE9C1DD9A6D10036F144 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE561DD9A6D10036F144 /* Home.storyboard */; };
+		BEF1FE9D1DD9A6D10036F144 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE571DD9A6D10036F144 /* HomeViewController.swift */; };
+		BEF1FE9E1DD9A6D10036F144 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE581DD9A6D10036F144 /* RecommendViewController.swift */; };
+		BEF1FE9F1DD9A6D10036F144 /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE5A1DD9A6D10036F144 /* CycleModel.swift */; };
+		BEF1FEA01DD9A6D10036F144 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE5B1DD9A6D10036F144 /* GameModel.swift */; };
+		BEF1FEA11DD9A6D10036F144 /* AmuseMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE5D1DD9A6D10036F144 /* AmuseMenuView.swift */; };
+		BEF1FEA21DD9A6D10036F144 /* AmuseMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE5E1DD9A6D10036F144 /* AmuseMenuView.xib */; };
+		BEF1FEA31DD9A6D10036F144 /* AmuseMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE5F1DD9A6D10036F144 /* AmuseMenuViewCell.swift */; };
+		BEF1FEA41DD9A6D10036F144 /* AmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE601DD9A6D10036F144 /* AmuseMenuViewCell.xib */; };
+		BEF1FEA51DD9A6D10036F144 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE611DD9A6D10036F144 /* CollectionHeaderView.swift */; };
+		BEF1FEA61DD9A6D10036F144 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE621DD9A6D10036F144 /* CollectionHeaderView.xib */; };
+		BEF1FEA71DD9A6D10036F144 /* CollectionViewCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE631DD9A6D10036F144 /* CollectionViewCycleCell.swift */; };
+		BEF1FEA81DD9A6D10036F144 /* CollectionViewCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE641DD9A6D10036F144 /* CollectionViewCycleCell.xib */; };
+		BEF1FEA91DD9A6D10036F144 /* CollectionViewGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE651DD9A6D10036F144 /* CollectionViewGameCell.swift */; };
+		BEF1FEAA1DD9A6D10036F144 /* CollectionViewGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE661DD9A6D10036F144 /* CollectionViewGameCell.xib */; };
+		BEF1FEAB1DD9A6D10036F144 /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE671DD9A6D10036F144 /* RecommendCycleView.swift */; };
+		BEF1FEAC1DD9A6D10036F144 /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE681DD9A6D10036F144 /* RecommendCycleView.xib */; };
+		BEF1FEAD1DD9A6D10036F144 /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE691DD9A6D10036F144 /* RecommendGameView.swift */; };
+		BEF1FEAE1DD9A6D10036F144 /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE6A1DD9A6D10036F144 /* RecommendGameView.xib */; };
+		BEF1FEAF1DD9A6D10036F144 /* AmuseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE6C1DD9A6D10036F144 /* AmuseViewModel.swift */; };
+		BEF1FEB01DD9A6D10036F144 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE6D1DD9A6D10036F144 /* GameViewModel.swift */; };
+		BEF1FEB11DD9A6D10036F144 /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE6E1DD9A6D10036F144 /* RecommendViewModel.swift */; };
+		BEF1FEB21DD9A6D10036F144 /* BaseAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE711DD9A6D10036F144 /* BaseAnchorViewController.swift */; };
+		BEF1FEB31DD9A6D10036F144 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE721DD9A6D10036F144 /* BaseViewController.swift */; };
+		BEF1FEB41DD9A6D10036F144 /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE731DD9A6D10036F144 /* CustomNavigationViewController.swift */; };
+		BEF1FEB51DD9A6D10036F144 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE751DD9A6D10036F144 /* AnchorGroup.swift */; };
+		BEF1FEB61DD9A6D10036F144 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE761DD9A6D10036F144 /* AnchorModel.swift */; };
+		BEF1FEB71DD9A6D10036F144 /* BaseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE771DD9A6D10036F144 /* BaseGameModel.swift */; };
+		BEF1FEB81DD9A6D10036F144 /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE791DD9A6D10036F144 /* CollectionBaseCell.swift */; };
+		BEF1FEB91DD9A6D10036F144 /* CollectionViewNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE7A1DD9A6D10036F144 /* CollectionViewNormalCell.swift */; };
+		BEF1FEBA1DD9A6D10036F144 /* CollectionViewNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE7B1DD9A6D10036F144 /* CollectionViewNormalCell.xib */; };
+		BEF1FEBB1DD9A6D10036F144 /* CollectionViewPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE7C1DD9A6D10036F144 /* CollectionViewPrettyCell.swift */; };
+		BEF1FEBC1DD9A6D10036F144 /* CollectionViewPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE7D1DD9A6D10036F144 /* CollectionViewPrettyCell.xib */; };
+		BEF1FEBD1DD9A6D10036F144 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE7E1DD9A6D10036F144 /* PageContentView.swift */; };
+		BEF1FEBE1DD9A6D10036F144 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE7F1DD9A6D10036F144 /* PageTitleView.swift */; };
+		BEF1FEBF1DD9A6D10036F144 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE811DD9A6D10036F144 /* BaseViewModel.swift */; };
+		BEF1FEC01DD9A6D10036F144 /* Fellow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE841DD9A6D10036F144 /* Fellow.storyboard */; };
+		BEF1FEC11DD9A6D10036F144 /* FellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE851DD9A6D10036F144 /* FellowViewController.swift */; };
+		BEF1FEC21DD9A6D10036F144 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE881DD9A6D10036F144 /* Live.storyboard */; };
+		BEF1FEC31DD9A6D10036F144 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE891DD9A6D10036F144 /* LiveViewController.swift */; };
+		BEF1FEC41DD9A6D10036F144 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE8C1DD9A6D10036F144 /* Profile.storyboard */; };
+		BEF1FEC51DD9A6D10036F144 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE8D1DD9A6D10036F144 /* ProfileViewController.swift */; };
+		BEF1FEC61DD9A6D10036F144 /* RoomNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE901DD9A6D10036F144 /* RoomNormalViewController.swift */; };
+		BEF1FEC71DD9A6D10036F144 /* RoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE911DD9A6D10036F144 /* RoomShowViewController.swift */; };
+		BEF1FEC81DD9A6D10036F144 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE931DD9A6D10036F144 /* Common.swift */; };
+		BEF1FEC91DD9A6D10036F144 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE951DD9A6D10036F144 /* NSDate+Extension.swift */; };
+		BEF1FECA1DD9A6D10036F144 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE961DD9A6D10036F144 /* UIBarButtonItem+Extension.swift */; };
+		BEF1FECB1DD9A6D10036F144 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */; };
+		BEF1FECC1DD9A6D10036F144 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE981DD9A6D10036F144 /* NetworkTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +88,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17F43C2621122369B00B12D7 /* Pods_FunLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DA51ECA45DD664DD74ED0E /* Pods-FunLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunLive/Pods-FunLive.debug.xcconfig"; sourceTree = "<group>"; };
+		88D11E6D51DA869EB7215354 /* Pods-FunLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunLive/Pods-FunLive.release.xcconfig"; sourceTree = "<group>"; };
 		BEF1FE131DD99EB70036F144 /* FunLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF1FE161DD99EB70036F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEF1FE181DD99EB70036F144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF1FE181DD99EB70036F144 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BEF1FE1B1DD99EB70036F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEF1FE1E1DD99EB70036F144 /* FunLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunLive.xcdatamodel; sourceTree = "<group>"; };
 		BEF1FE201DD99EB70036F144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +105,58 @@
 		BEF1FE351DD99EB70036F144 /* FunLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF1FE391DD99EB70036F144 /* FunLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunLiveUITests.swift; sourceTree = "<group>"; };
 		BEF1FE3B1DD99EB70036F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF1FE531DD9A6D10036F144 /* AmuseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseViewController.swift; sourceTree = "<group>"; };
+		BEF1FE541DD9A6D10036F144 /* FunnyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
+		BEF1FE551DD9A6D10036F144 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BEF1FE561DD9A6D10036F144 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BEF1FE571DD9A6D10036F144 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEF1FE581DD9A6D10036F144 /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		BEF1FE5A1DD9A6D10036F144 /* CycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		BEF1FE5B1DD9A6D10036F144 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		BEF1FE5D1DD9A6D10036F144 /* AmuseMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseMenuView.swift; sourceTree = "<group>"; };
+		BEF1FE5E1DD9A6D10036F144 /* AmuseMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuView.xib; sourceTree = "<group>"; };
+		BEF1FE5F1DD9A6D10036F144 /* AmuseMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseMenuViewCell.swift; sourceTree = "<group>"; };
+		BEF1FE601DD9A6D10036F144 /* AmuseMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmuseMenuViewCell.xib; sourceTree = "<group>"; };
+		BEF1FE611DD9A6D10036F144 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		BEF1FE621DD9A6D10036F144 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		BEF1FE631DD9A6D10036F144 /* CollectionViewCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCycleCell.swift; sourceTree = "<group>"; };
+		BEF1FE641DD9A6D10036F144 /* CollectionViewCycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCycleCell.xib; sourceTree = "<group>"; };
+		BEF1FE651DD9A6D10036F144 /* CollectionViewGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewGameCell.swift; sourceTree = "<group>"; };
+		BEF1FE661DD9A6D10036F144 /* CollectionViewGameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewGameCell.xib; sourceTree = "<group>"; };
+		BEF1FE671DD9A6D10036F144 /* RecommendCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		BEF1FE681DD9A6D10036F144 /* RecommendCycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		BEF1FE691DD9A6D10036F144 /* RecommendGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		BEF1FE6A1DD9A6D10036F144 /* RecommendGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
+		BEF1FE6C1DD9A6D10036F144 /* AmuseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmuseViewModel.swift; sourceTree = "<group>"; };
+		BEF1FE6D1DD9A6D10036F144 /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		BEF1FE6E1DD9A6D10036F144 /* RecommendViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
+		BEF1FE711DD9A6D10036F144 /* BaseAnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAnchorViewController.swift; sourceTree = "<group>"; };
+		BEF1FE721DD9A6D10036F144 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BEF1FE731DD9A6D10036F144 /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		BEF1FE751DD9A6D10036F144 /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		BEF1FE761DD9A6D10036F144 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		BEF1FE771DD9A6D10036F144 /* BaseGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGameModel.swift; sourceTree = "<group>"; };
+		BEF1FE791DD9A6D10036F144 /* CollectionBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
+		BEF1FE7A1DD9A6D10036F144 /* CollectionViewNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewNormalCell.swift; sourceTree = "<group>"; };
+		BEF1FE7B1DD9A6D10036F144 /* CollectionViewNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewNormalCell.xib; sourceTree = "<group>"; };
+		BEF1FE7C1DD9A6D10036F144 /* CollectionViewPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPrettyCell.swift; sourceTree = "<group>"; };
+		BEF1FE7D1DD9A6D10036F144 /* CollectionViewPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewPrettyCell.xib; sourceTree = "<group>"; };
+		BEF1FE7E1DD9A6D10036F144 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		BEF1FE7F1DD9A6D10036F144 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		BEF1FE811DD9A6D10036F144 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		BEF1FE841DD9A6D10036F144 /* Fellow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fellow.storyboard; sourceTree = "<group>"; };
+		BEF1FE851DD9A6D10036F144 /* FellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FellowViewController.swift; sourceTree = "<group>"; };
+		BEF1FE881DD9A6D10036F144 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		BEF1FE891DD9A6D10036F144 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		BEF1FE8C1DD9A6D10036F144 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BEF1FE8D1DD9A6D10036F144 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BEF1FE901DD9A6D10036F144 /* RoomNormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomNormalViewController.swift; sourceTree = "<group>"; };
+		BEF1FE911DD9A6D10036F144 /* RoomShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomShowViewController.swift; sourceTree = "<group>"; };
+		BEF1FE931DD9A6D10036F144 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BEF1FE951DD9A6D10036F144 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		BEF1FE961DD9A6D10036F144 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BEF1FE981DD9A6D10036F144 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B612400C96E0ABEF9FD4822A /* Pods_FunLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +185,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82D16CD8A7DBFE37E9B6664B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F43C2621122369B00B12D7 /* Pods_FunLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEF1FE0A1DD99EB70036F144 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +200,8 @@
 				BEF1FE2D1DD99EB70036F144 /* FunLiveTests */,
 				BEF1FE381DD99EB70036F144 /* FunLiveUITests */,
 				BEF1FE141DD99EB70036F144 /* Products */,
+				E818115C07DEB019724852FE /* Pods */,
+				82D16CD8A7DBFE37E9B6664B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +218,9 @@
 		BEF1FE151DD99EB70036F144 /* FunLive */ = {
 			isa = PBXGroup;
 			children = (
+				BEF1FE4C1DD9A5A30036F144 /* Home */,
+				BEF1FE471DD9A0D70036F144 /* Main */,
 				BEF1FE161DD99EB70036F144 /* AppDelegate.swift */,
-				BEF1FE181DD99EB70036F144 /* ViewController.swift */,
-				BEF1FE1A1DD99EB70036F144 /* Main.storyboard */,
 				BEF1FE201DD99EB70036F144 /* Assets.xcassets */,
 				BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */,
 				BEF1FE251DD99EB70036F144 /* Info.plist */,
@@ -128,6 +247,314 @@
 			path = FunLiveUITests;
 			sourceTree = "<group>";
 		};
+		BEF1FE471DD9A0D70036F144 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE4B1DD9A0FA0036F144 /* Controller */,
+				BEF1FE4A1DD9A0F30036F144 /* View */,
+				BEF1FE491DD9A0EC0036F144 /* Model */,
+				BEF1FE481DD9A0E00036F144 /* ViewModel */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BEF1FE481DD9A0E00036F144 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEF1FE491DD9A0EC0036F144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BEF1FE4A1DD9A0F30036F144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BEF1FE4B1DD9A0FA0036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE1A1DD99EB70036F144 /* Main.storyboard */,
+				BEF1FE181DD99EB70036F144 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE4C1DD9A5A30036F144 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE501DD9A5C60036F144 /* Controller */,
+				BEF1FE4F1DD9A5C00036F144 /* View */,
+				BEF1FE4E1DD9A5B90036F144 /* Model */,
+				BEF1FE4D1DD9A5AC0036F144 /* ViewModel */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		BEF1FE4D1DD9A5AC0036F144 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEF1FE4E1DD9A5B90036F144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BEF1FE4F1DD9A5C00036F144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BEF1FE501DD9A5C60036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE511DD9A6D10036F144 /* Home */,
+				BEF1FE6F1DD9A6D10036F144 /* Main */,
+				BEF1FE821DD9A6D10036F144 /* Fellow */,
+				BEF1FE861DD9A6D10036F144 /* Live */,
+				BEF1FE8A1DD9A6D10036F144 /* Profile */,
+				BEF1FE8E1DD9A6D10036F144 /* Room */,
+				BEF1FE921DD9A6D10036F144 /* Tools */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE511DD9A6D10036F144 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE521DD9A6D10036F144 /* Controller */,
+				BEF1FE591DD9A6D10036F144 /* Model */,
+				BEF1FE5C1DD9A6D10036F144 /* View */,
+				BEF1FE6B1DD9A6D10036F144 /* ViewModel */,
+			);
+			name = Home;
+			path = Classes/Home;
+			sourceTree = "<group>";
+		};
+		BEF1FE521DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE531DD9A6D10036F144 /* AmuseViewController.swift */,
+				BEF1FE541DD9A6D10036F144 /* FunnyViewController.swift */,
+				BEF1FE551DD9A6D10036F144 /* GameViewController.swift */,
+				BEF1FE561DD9A6D10036F144 /* Home.storyboard */,
+				BEF1FE571DD9A6D10036F144 /* HomeViewController.swift */,
+				BEF1FE581DD9A6D10036F144 /* RecommendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE591DD9A6D10036F144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE5A1DD9A6D10036F144 /* CycleModel.swift */,
+				BEF1FE5B1DD9A6D10036F144 /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF1FE5C1DD9A6D10036F144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE5D1DD9A6D10036F144 /* AmuseMenuView.swift */,
+				BEF1FE5E1DD9A6D10036F144 /* AmuseMenuView.xib */,
+				BEF1FE5F1DD9A6D10036F144 /* AmuseMenuViewCell.swift */,
+				BEF1FE601DD9A6D10036F144 /* AmuseMenuViewCell.xib */,
+				BEF1FE611DD9A6D10036F144 /* CollectionHeaderView.swift */,
+				BEF1FE621DD9A6D10036F144 /* CollectionHeaderView.xib */,
+				BEF1FE631DD9A6D10036F144 /* CollectionViewCycleCell.swift */,
+				BEF1FE641DD9A6D10036F144 /* CollectionViewCycleCell.xib */,
+				BEF1FE651DD9A6D10036F144 /* CollectionViewGameCell.swift */,
+				BEF1FE661DD9A6D10036F144 /* CollectionViewGameCell.xib */,
+				BEF1FE671DD9A6D10036F144 /* RecommendCycleView.swift */,
+				BEF1FE681DD9A6D10036F144 /* RecommendCycleView.xib */,
+				BEF1FE691DD9A6D10036F144 /* RecommendGameView.swift */,
+				BEF1FE6A1DD9A6D10036F144 /* RecommendGameView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEF1FE6B1DD9A6D10036F144 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE6C1DD9A6D10036F144 /* AmuseViewModel.swift */,
+				BEF1FE6D1DD9A6D10036F144 /* GameViewModel.swift */,
+				BEF1FE6E1DD9A6D10036F144 /* RecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEF1FE6F1DD9A6D10036F144 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE701DD9A6D10036F144 /* Controller */,
+				BEF1FE741DD9A6D10036F144 /* Model */,
+				BEF1FE781DD9A6D10036F144 /* View */,
+				BEF1FE801DD9A6D10036F144 /* ViewModel */,
+			);
+			name = Main;
+			path = Classes/Main;
+			sourceTree = "<group>";
+		};
+		BEF1FE701DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE711DD9A6D10036F144 /* BaseAnchorViewController.swift */,
+				BEF1FE721DD9A6D10036F144 /* BaseViewController.swift */,
+				BEF1FE731DD9A6D10036F144 /* CustomNavigationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE741DD9A6D10036F144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE751DD9A6D10036F144 /* AnchorGroup.swift */,
+				BEF1FE761DD9A6D10036F144 /* AnchorModel.swift */,
+				BEF1FE771DD9A6D10036F144 /* BaseGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEF1FE781DD9A6D10036F144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE791DD9A6D10036F144 /* CollectionBaseCell.swift */,
+				BEF1FE7A1DD9A6D10036F144 /* CollectionViewNormalCell.swift */,
+				BEF1FE7B1DD9A6D10036F144 /* CollectionViewNormalCell.xib */,
+				BEF1FE7C1DD9A6D10036F144 /* CollectionViewPrettyCell.swift */,
+				BEF1FE7D1DD9A6D10036F144 /* CollectionViewPrettyCell.xib */,
+				BEF1FE7E1DD9A6D10036F144 /* PageContentView.swift */,
+				BEF1FE7F1DD9A6D10036F144 /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEF1FE801DD9A6D10036F144 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE811DD9A6D10036F144 /* BaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEF1FE821DD9A6D10036F144 /* Fellow */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE831DD9A6D10036F144 /* Controller */,
+			);
+			name = Fellow;
+			path = Classes/Fellow;
+			sourceTree = "<group>";
+		};
+		BEF1FE831DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE841DD9A6D10036F144 /* Fellow.storyboard */,
+				BEF1FE851DD9A6D10036F144 /* FellowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE861DD9A6D10036F144 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE871DD9A6D10036F144 /* Controller */,
+			);
+			name = Live;
+			path = Classes/Live;
+			sourceTree = "<group>";
+		};
+		BEF1FE871DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE881DD9A6D10036F144 /* Live.storyboard */,
+				BEF1FE891DD9A6D10036F144 /* LiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE8A1DD9A6D10036F144 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE8B1DD9A6D10036F144 /* Controller */,
+			);
+			name = Profile;
+			path = Classes/Profile;
+			sourceTree = "<group>";
+		};
+		BEF1FE8B1DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE8C1DD9A6D10036F144 /* Profile.storyboard */,
+				BEF1FE8D1DD9A6D10036F144 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE8E1DD9A6D10036F144 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE8F1DD9A6D10036F144 /* Controller */,
+			);
+			name = Room;
+			path = Classes/Room;
+			sourceTree = "<group>";
+		};
+		BEF1FE8F1DD9A6D10036F144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE901DD9A6D10036F144 /* RoomNormalViewController.swift */,
+				BEF1FE911DD9A6D10036F144 /* RoomShowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF1FE921DD9A6D10036F144 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE931DD9A6D10036F144 /* Common.swift */,
+				BEF1FE941DD9A6D10036F144 /* Extensions */,
+				BEF1FE981DD9A6D10036F144 /* NetworkTools.swift */,
+			);
+			name = Tools;
+			path = Classes/Tools;
+			sourceTree = "<group>";
+		};
+		BEF1FE941DD9A6D10036F144 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEF1FE951DD9A6D10036F144 /* NSDate+Extension.swift */,
+				BEF1FE961DD9A6D10036F144 /* UIBarButtonItem+Extension.swift */,
+				BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E818115C07DEB019724852FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80DA51ECA45DD664DD74ED0E /* Pods-FunLive.debug.xcconfig */,
+				88D11E6D51DA869EB7215354 /* Pods-FunLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +562,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF1FE3E1DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLive" */;
 			buildPhases = (
+				371CD1C875A5633EAF03DFE0 /* [CP] Check Pods Manifest.lock */,
 				BEF1FE0F1DD99EB70036F144 /* Sources */,
 				BEF1FE101DD99EB70036F144 /* Frameworks */,
 				BEF1FE111DD99EB70036F144 /* Resources */,
+				6780733B6269CB276EEA86A9 /* [CP] Embed Pods Frameworks */,
+				AC087C615CC649C4D19B8228 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,15 +626,18 @@
 				TargetAttributes = {
 					BEF1FE121DD99EB70036F144 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					BEF1FE291DD99EB70036F144 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BEF1FE121DD99EB70036F144;
 					};
 					BEF1FE341DD99EB70036F144 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BEF1FE121DD99EB70036F144;
 					};
@@ -235,9 +668,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF1FEAC1DD9A6D10036F144 /* RecommendCycleView.xib in Resources */,
 				BEF1FE241DD99EB70036F144 /* LaunchScreen.storyboard in Resources */,
+				BEF1FEA41DD9A6D10036F144 /* AmuseMenuViewCell.xib in Resources */,
 				BEF1FE211DD99EB70036F144 /* Assets.xcassets in Resources */,
+				BEF1FEA81DD9A6D10036F144 /* CollectionViewCycleCell.xib in Resources */,
+				BEF1FEBA1DD9A6D10036F144 /* CollectionViewNormalCell.xib in Resources */,
+				BEF1FEA61DD9A6D10036F144 /* CollectionHeaderView.xib in Resources */,
+				BEF1FEC01DD9A6D10036F144 /* Fellow.storyboard in Resources */,
+				BEF1FEC21DD9A6D10036F144 /* Live.storyboard in Resources */,
 				BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */,
+				BEF1FEC41DD9A6D10036F144 /* Profile.storyboard in Resources */,
+				BEF1FEA21DD9A6D10036F144 /* AmuseMenuView.xib in Resources */,
+				BEF1FEBC1DD9A6D10036F144 /* CollectionViewPrettyCell.xib in Resources */,
+				BEF1FE9C1DD9A6D10036F144 /* Home.storyboard in Resources */,
+				BEF1FEAA1DD9A6D10036F144 /* CollectionViewGameCell.xib in Resources */,
+				BEF1FEAE1DD9A6D10036F144 /* RecommendGameView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +703,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		371CD1C875A5633EAF03DFE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6780733B6269CB276EEA86A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunLive/Pods-FunLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC087C615CC649C4D19B8228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunLive/Pods-FunLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEF1FE0F1DD99EB70036F144 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEF1FE1F1DD99EB70036F144 /* FunLive.xcdatamodeld in Sources */,
-				BEF1FE191DD99EB70036F144 /* ViewController.swift in Sources */,
+				BEF1FEAD1DD9A6D10036F144 /* RecommendGameView.swift in Sources */,
+				BEF1FEC61DD9A6D10036F144 /* RoomNormalViewController.swift in Sources */,
+				BEF1FEA31DD9A6D10036F144 /* AmuseMenuViewCell.swift in Sources */,
+				BEF1FEB81DD9A6D10036F144 /* CollectionBaseCell.swift in Sources */,
+				BEF1FE9E1DD9A6D10036F144 /* RecommendViewController.swift in Sources */,
+				BEF1FE191DD99EB70036F144 /* MainViewController.swift in Sources */,
+				BEF1FE9F1DD9A6D10036F144 /* CycleModel.swift in Sources */,
+				BEF1FEA91DD9A6D10036F144 /* CollectionViewGameCell.swift in Sources */,
+				BEF1FEC11DD9A6D10036F144 /* FellowViewController.swift in Sources */,
+				BEF1FEA11DD9A6D10036F144 /* AmuseMenuView.swift in Sources */,
+				BEF1FE991DD9A6D10036F144 /* AmuseViewController.swift in Sources */,
+				BEF1FECB1DD9A6D10036F144 /* UIColor+Extension.swift in Sources */,
+				BEF1FEC91DD9A6D10036F144 /* NSDate+Extension.swift in Sources */,
+				BEF1FECC1DD9A6D10036F144 /* NetworkTools.swift in Sources */,
+				BEF1FEB21DD9A6D10036F144 /* BaseAnchorViewController.swift in Sources */,
+				BEF1FEB71DD9A6D10036F144 /* BaseGameModel.swift in Sources */,
+				BEF1FEBE1DD9A6D10036F144 /* PageTitleView.swift in Sources */,
+				BEF1FEC31DD9A6D10036F144 /* LiveViewController.swift in Sources */,
+				BEF1FEB41DD9A6D10036F144 /* CustomNavigationViewController.swift in Sources */,
+				BEF1FEBD1DD9A6D10036F144 /* PageContentView.swift in Sources */,
+				BEF1FEB61DD9A6D10036F144 /* AnchorModel.swift in Sources */,
+				BEF1FEAB1DD9A6D10036F144 /* RecommendCycleView.swift in Sources */,
+				BEF1FEB51DD9A6D10036F144 /* AnchorGroup.swift in Sources */,
+				BEF1FEA51DD9A6D10036F144 /* CollectionHeaderView.swift in Sources */,
+				BEF1FEA01DD9A6D10036F144 /* GameModel.swift in Sources */,
+				BEF1FEBB1DD9A6D10036F144 /* CollectionViewPrettyCell.swift in Sources */,
+				BEF1FEBF1DD9A6D10036F144 /* BaseViewModel.swift in Sources */,
+				BEF1FEB31DD9A6D10036F144 /* BaseViewController.swift in Sources */,
+				BEF1FEA71DD9A6D10036F144 /* CollectionViewCycleCell.swift in Sources */,
+				BEF1FEB11DD9A6D10036F144 /* RecommendViewModel.swift in Sources */,
+				BEF1FEB91DD9A6D10036F144 /* CollectionViewNormalCell.swift in Sources */,
+				BEF1FE9A1DD9A6D10036F144 /* FunnyViewController.swift in Sources */,
+				BEF1FE9B1DD9A6D10036F144 /* GameViewController.swift in Sources */,
+				BEF1FECA1DD9A6D10036F144 /* UIBarButtonItem+Extension.swift in Sources */,
+				BEF1FEB01DD9A6D10036F144 /* GameViewModel.swift in Sources */,
+				BEF1FE9D1DD9A6D10036F144 /* HomeViewController.swift in Sources */,
+				BEF1FEC71DD9A6D10036F144 /* RoomShowViewController.swift in Sources */,
+				BEF1FEC81DD9A6D10036F144 /* Common.swift in Sources */,
+				BEF1FEC51DD9A6D10036F144 /* ProfileViewController.swift in Sources */,
+				BEF1FEAF1DD9A6D10036F144 /* AmuseViewModel.swift in Sources */,
 				BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +947,7 @@
 		};
 		BEF1FE3F1DD99EB70036F144 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DA51ECA45DD664DD74ED0E /* Pods-FunLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunLive/Info.plist;
@@ -426,6 +960,7 @@
 		};
 		BEF1FE401DD99EB70036F144 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D11E6D51DA869EB7215354 /* Pods-FunLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunLive/Info.plist;
@@ -509,6 +1044,7 @@
 				BEF1FE401DD99EB70036F144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF1FE411DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +1053,7 @@
 				BEF1FE431DD99EB70036F144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF1FE441DD99EB70036F144 /* Build configuration list for PBXNativeTarget "FunLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +1062,7 @@
 				BEF1FE461DD99EB70036F144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
