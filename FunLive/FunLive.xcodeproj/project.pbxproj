@@ -93,7 +93,7 @@
 		88D11E6D51DA869EB7215354 /* Pods-FunLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunLive/Pods-FunLive.release.xcconfig"; sourceTree = "<group>"; };
 		BEF1FE131DD99EB70036F144 /* FunLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF1FE161DD99EB70036F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEF1FE181DD99EB70036F144 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BEF1FE181DD99EB70036F144 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../MainViewController.swift; sourceTree = "<group>"; };
 		BEF1FE1B1DD99EB70036F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEF1FE1E1DD99EB70036F144 /* FunLive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunLive.xcdatamodel; sourceTree = "<group>"; };
 		BEF1FE201DD99EB70036F144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -218,8 +218,13 @@
 		BEF1FE151DD99EB70036F144 /* FunLive */ = {
 			isa = PBXGroup;
 			children = (
-				BEF1FE4C1DD9A5A30036F144 /* Home */,
-				BEF1FE471DD9A0D70036F144 /* Main */,
+				BEF1FE511DD9A6D10036F144 /* Home */,
+				BEF1FE6F1DD9A6D10036F144 /* Main */,
+				BEF1FE821DD9A6D10036F144 /* Fellow */,
+				BEF1FE861DD9A6D10036F144 /* Live */,
+				BEF1FE8A1DD9A6D10036F144 /* Profile */,
+				BEF1FE8E1DD9A6D10036F144 /* Room */,
+				BEF1FE921DD9A6D10036F144 /* Tools */,
 				BEF1FE161DD99EB70036F144 /* AppDelegate.swift */,
 				BEF1FE201DD99EB70036F144 /* Assets.xcassets */,
 				BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */,
@@ -245,93 +250,6 @@
 				BEF1FE3B1DD99EB70036F144 /* Info.plist */,
 			);
 			path = FunLiveUITests;
-			sourceTree = "<group>";
-		};
-		BEF1FE471DD9A0D70036F144 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				BEF1FE4B1DD9A0FA0036F144 /* Controller */,
-				BEF1FE4A1DD9A0F30036F144 /* View */,
-				BEF1FE491DD9A0EC0036F144 /* Model */,
-				BEF1FE481DD9A0E00036F144 /* ViewModel */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		BEF1FE481DD9A0E00036F144 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
-		BEF1FE491DD9A0EC0036F144 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		BEF1FE4A1DD9A0F30036F144 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		BEF1FE4B1DD9A0FA0036F144 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BEF1FE1A1DD99EB70036F144 /* Main.storyboard */,
-				BEF1FE181DD99EB70036F144 /* MainViewController.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		BEF1FE4C1DD9A5A30036F144 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				BEF1FE501DD9A5C60036F144 /* Controller */,
-				BEF1FE4F1DD9A5C00036F144 /* View */,
-				BEF1FE4E1DD9A5B90036F144 /* Model */,
-				BEF1FE4D1DD9A5AC0036F144 /* ViewModel */,
-			);
-			name = Home;
-			sourceTree = "<group>";
-		};
-		BEF1FE4D1DD9A5AC0036F144 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewModel;
-			sourceTree = "<group>";
-		};
-		BEF1FE4E1DD9A5B90036F144 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		BEF1FE4F1DD9A5C00036F144 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		BEF1FE501DD9A5C60036F144 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BEF1FE511DD9A6D10036F144 /* Home */,
-				BEF1FE6F1DD9A6D10036F144 /* Main */,
-				BEF1FE821DD9A6D10036F144 /* Fellow */,
-				BEF1FE861DD9A6D10036F144 /* Live */,
-				BEF1FE8A1DD9A6D10036F144 /* Profile */,
-				BEF1FE8E1DD9A6D10036F144 /* Room */,
-				BEF1FE921DD9A6D10036F144 /* Tools */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 		BEF1FE511DD9A6D10036F144 /* Home */ = {
@@ -414,6 +332,8 @@
 		BEF1FE701DD9A6D10036F144 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BEF1FE1A1DD99EB70036F144 /* Main.storyboard */,
+				BEF1FE181DD99EB70036F144 /* MainViewController.swift */,
 				BEF1FE711DD9A6D10036F144 /* BaseAnchorViewController.swift */,
 				BEF1FE721DD9A6D10036F144 /* BaseViewController.swift */,
 				BEF1FE731DD9A6D10036F144 /* CustomNavigationViewController.swift */,
@@ -839,6 +759,7 @@
 				BEF1FE1B1DD99EB70036F144 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		BEF1FE221DD99EB70036F144 /* LaunchScreen.storyboard */ = {
