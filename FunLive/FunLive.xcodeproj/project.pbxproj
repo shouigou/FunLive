@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		B612400C96E0ABEF9FD4822A /* Pods_FunLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F43C2621122369B00B12D7 /* Pods_FunLive.framework */; };
+		BE65CAAF1DDAB802002CFB27 /* ProfileMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAAE1DDAB802002CFB27 /* ProfileMiddleView.swift */; };
+		BE65CAB11DDAB80F002CFB27 /* ProfileMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE65CAB01DDAB80F002CFB27 /* ProfileMiddleView.xib */; };
+		BE65CAB31DDAD3A7002CFB27 /* ProfileTopTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAB21DDAD3A7002CFB27 /* ProfileTopTabelViewCell.swift */; };
+		BE65CAB51DDADB34002CFB27 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAB41DDADB34002CFB27 /* Section.swift */; };
+		BE65CAB71DDADB5A002CFB27 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAB61DDADB5A002CFB27 /* SectionItem.swift */; };
+		BE65CAB91DDADBE0002CFB27 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAB81DDADBE0002CFB27 /* BaseTableViewController.swift */; };
+		BE65CABB1DDADEAF002CFB27 /* ProfileItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CABA1DDADEAF002CFB27 /* ProfileItemTableViewCell.swift */; };
+		BE65CABD1DDADFAE002CFB27 /* ProfileItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE65CABC1DDADFAE002CFB27 /* ProfileItemTableViewCell.xib */; };
+		BE65CAC01DDAE4B1002CFB27 /* ProfileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CABF1DDAE4B1002CFB27 /* ProfileItemModel.swift */; };
+		BE65CAC21DDAEA3C002CFB27 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65CAC11DDAEA3C002CFB27 /* BaseTableViewCell.swift */; };
 		BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE161DD99EB70036F144 /* AppDelegate.swift */; };
 		BEF1FE191DD99EB70036F144 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE181DD99EB70036F144 /* MainViewController.swift */; };
 		BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FE1A1DD99EB70036F144 /* Main.storyboard */; };
@@ -68,6 +78,8 @@
 		BEF1FECA1DD9A6D10036F144 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE961DD9A6D10036F144 /* UIBarButtonItem+Extension.swift */; };
 		BEF1FECB1DD9A6D10036F144 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */; };
 		BEF1FECC1DD9A6D10036F144 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE981DD9A6D10036F144 /* NetworkTools.swift */; };
+		BEF1FED11DD9BD390036F144 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FED01DD9BD390036F144 /* ProfileHeaderView.swift */; };
+		BEF1FED31DD9BD5A0036F144 /* ProfileHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF1FED21DD9BD5A0036F144 /* ProfileHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +103,16 @@
 		17F43C2621122369B00B12D7 /* Pods_FunLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DA51ECA45DD664DD74ED0E /* Pods-FunLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FunLive/Pods-FunLive.debug.xcconfig"; sourceTree = "<group>"; };
 		88D11E6D51DA869EB7215354 /* Pods-FunLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-FunLive/Pods-FunLive.release.xcconfig"; sourceTree = "<group>"; };
+		BE65CAAE1DDAB802002CFB27 /* ProfileMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMiddleView.swift; sourceTree = "<group>"; };
+		BE65CAB01DDAB80F002CFB27 /* ProfileMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileMiddleView.xib; sourceTree = "<group>"; };
+		BE65CAB21DDAD3A7002CFB27 /* ProfileTopTabelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTopTabelViewCell.swift; sourceTree = "<group>"; };
+		BE65CAB41DDADB34002CFB27 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		BE65CAB61DDADB5A002CFB27 /* SectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
+		BE65CAB81DDADBE0002CFB27 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		BE65CABA1DDADEAF002CFB27 /* ProfileItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileItemTableViewCell.swift; sourceTree = "<group>"; };
+		BE65CABC1DDADFAE002CFB27 /* ProfileItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileItemTableViewCell.xib; sourceTree = "<group>"; };
+		BE65CABF1DDAE4B1002CFB27 /* ProfileItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileItemModel.swift; sourceTree = "<group>"; };
+		BE65CAC11DDAEA3C002CFB27 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		BEF1FE131DD99EB70036F144 /* FunLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF1FE161DD99EB70036F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF1FE181DD99EB70036F144 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../MainViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +179,8 @@
 		BEF1FE961DD9A6D10036F144 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BEF1FE981DD9A6D10036F144 /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		BEF1FED01DD9BD390036F144 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		BEF1FED21DD9BD5A0036F144 /* ProfileHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +215,14 @@
 				17F43C2621122369B00B12D7 /* Pods_FunLive.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE65CABE1DDAE495002CFB27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE65CABF1DDAE4B1002CFB27 /* ProfileItemModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		BEF1FE0A1DD99EB70036F144 = {
@@ -337,6 +369,7 @@
 				BEF1FE711DD9A6D10036F144 /* BaseAnchorViewController.swift */,
 				BEF1FE721DD9A6D10036F144 /* BaseViewController.swift */,
 				BEF1FE731DD9A6D10036F144 /* CustomNavigationViewController.swift */,
+				BE65CAC11DDAEA3C002CFB27 /* BaseTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -412,6 +445,8 @@
 		BEF1FE8A1DD9A6D10036F144 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BE65CABE1DDAE495002CFB27 /* Model */,
+				BEF1FECD1DD9BC950036F144 /* View */,
 				BEF1FE8B1DD9A6D10036F144 /* Controller */,
 			);
 			name = Profile;
@@ -464,6 +499,24 @@
 				BEF1FE971DD9A6D10036F144 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEF1FECD1DD9BC950036F144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE65CAB21DDAD3A7002CFB27 /* ProfileTopTabelViewCell.swift */,
+				BEF1FED01DD9BD390036F144 /* ProfileHeaderView.swift */,
+				BE65CABA1DDADEAF002CFB27 /* ProfileItemTableViewCell.swift */,
+				BE65CABC1DDADFAE002CFB27 /* ProfileItemTableViewCell.xib */,
+				BEF1FED21DD9BD5A0036F144 /* ProfileHeaderView.xib */,
+				BE65CAAE1DDAB802002CFB27 /* ProfileMiddleView.swift */,
+				BE65CAB01DDAB80F002CFB27 /* ProfileMiddleView.xib */,
+				BE65CAB41DDADB34002CFB27 /* Section.swift */,
+				BE65CAB61DDADB5A002CFB27 /* SectionItem.swift */,
+				BE65CAB81DDADBE0002CFB27 /* BaseTableViewController.swift */,
+			);
+			name = View;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E818115C07DEB019724852FE /* Pods */ = {
@@ -589,6 +642,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF1FEAC1DD9A6D10036F144 /* RecommendCycleView.xib in Resources */,
+				BE65CAB11DDAB80F002CFB27 /* ProfileMiddleView.xib in Resources */,
 				BEF1FE241DD99EB70036F144 /* LaunchScreen.storyboard in Resources */,
 				BEF1FEA41DD9A6D10036F144 /* AmuseMenuViewCell.xib in Resources */,
 				BEF1FE211DD99EB70036F144 /* Assets.xcassets in Resources */,
@@ -598,9 +652,11 @@
 				BEF1FEC01DD9A6D10036F144 /* Fellow.storyboard in Resources */,
 				BEF1FEC21DD9A6D10036F144 /* Live.storyboard in Resources */,
 				BEF1FE1C1DD99EB70036F144 /* Main.storyboard in Resources */,
+				BEF1FED31DD9BD5A0036F144 /* ProfileHeaderView.xib in Resources */,
 				BEF1FEC41DD9A6D10036F144 /* Profile.storyboard in Resources */,
 				BEF1FEA21DD9A6D10036F144 /* AmuseMenuView.xib in Resources */,
 				BEF1FEBC1DD9A6D10036F144 /* CollectionViewPrettyCell.xib in Resources */,
+				BE65CABD1DDADFAE002CFB27 /* ProfileItemTableViewCell.xib in Resources */,
 				BEF1FE9C1DD9A6D10036F144 /* Home.storyboard in Resources */,
 				BEF1FEAA1DD9A6D10036F144 /* CollectionViewGameCell.xib in Resources */,
 				BEF1FEAE1DD9A6D10036F144 /* RecommendGameView.xib in Resources */,
@@ -678,9 +734,11 @@
 			files = (
 				BEF1FE1F1DD99EB70036F144 /* FunLive.xcdatamodeld in Sources */,
 				BEF1FEAD1DD9A6D10036F144 /* RecommendGameView.swift in Sources */,
+				BE65CABB1DDADEAF002CFB27 /* ProfileItemTableViewCell.swift in Sources */,
 				BEF1FEC61DD9A6D10036F144 /* RoomNormalViewController.swift in Sources */,
 				BEF1FEA31DD9A6D10036F144 /* AmuseMenuViewCell.swift in Sources */,
 				BEF1FEB81DD9A6D10036F144 /* CollectionBaseCell.swift in Sources */,
+				BE65CAAF1DDAB802002CFB27 /* ProfileMiddleView.swift in Sources */,
 				BEF1FE9E1DD9A6D10036F144 /* RecommendViewController.swift in Sources */,
 				BEF1FE191DD99EB70036F144 /* MainViewController.swift in Sources */,
 				BEF1FE9F1DD9A6D10036F144 /* CycleModel.swift in Sources */,
@@ -690,6 +748,7 @@
 				BEF1FE991DD9A6D10036F144 /* AmuseViewController.swift in Sources */,
 				BEF1FECB1DD9A6D10036F144 /* UIColor+Extension.swift in Sources */,
 				BEF1FEC91DD9A6D10036F144 /* NSDate+Extension.swift in Sources */,
+				BE65CAB51DDADB34002CFB27 /* Section.swift in Sources */,
 				BEF1FECC1DD9A6D10036F144 /* NetworkTools.swift in Sources */,
 				BEF1FEB21DD9A6D10036F144 /* BaseAnchorViewController.swift in Sources */,
 				BEF1FEB71DD9A6D10036F144 /* BaseGameModel.swift in Sources */,
@@ -700,6 +759,8 @@
 				BEF1FEB61DD9A6D10036F144 /* AnchorModel.swift in Sources */,
 				BEF1FEAB1DD9A6D10036F144 /* RecommendCycleView.swift in Sources */,
 				BEF1FEB51DD9A6D10036F144 /* AnchorGroup.swift in Sources */,
+				BE65CAB31DDAD3A7002CFB27 /* ProfileTopTabelViewCell.swift in Sources */,
+				BE65CAC01DDAE4B1002CFB27 /* ProfileItemModel.swift in Sources */,
 				BEF1FEA51DD9A6D10036F144 /* CollectionHeaderView.swift in Sources */,
 				BEF1FEA01DD9A6D10036F144 /* GameModel.swift in Sources */,
 				BEF1FEBB1DD9A6D10036F144 /* CollectionViewPrettyCell.swift in Sources */,
@@ -713,10 +774,14 @@
 				BEF1FECA1DD9A6D10036F144 /* UIBarButtonItem+Extension.swift in Sources */,
 				BEF1FEB01DD9A6D10036F144 /* GameViewModel.swift in Sources */,
 				BEF1FE9D1DD9A6D10036F144 /* HomeViewController.swift in Sources */,
+				BEF1FED11DD9BD390036F144 /* ProfileHeaderView.swift in Sources */,
 				BEF1FEC71DD9A6D10036F144 /* RoomShowViewController.swift in Sources */,
+				BE65CAB91DDADBE0002CFB27 /* BaseTableViewController.swift in Sources */,
 				BEF1FEC81DD9A6D10036F144 /* Common.swift in Sources */,
+				BE65CAC21DDAEA3C002CFB27 /* BaseTableViewCell.swift in Sources */,
 				BEF1FEC51DD9A6D10036F144 /* ProfileViewController.swift in Sources */,
 				BEF1FEAF1DD9A6D10036F144 /* AmuseViewModel.swift in Sources */,
+				BE65CAB71DDADB5A002CFB27 /* SectionItem.swift in Sources */,
 				BEF1FE171DD99EB70036F144 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

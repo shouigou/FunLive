@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++5DB4676",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55" : 9223372036854775807
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++54C23D1" : 9223372036854775807,
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++5DB4676" : 9223372036854775807,
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++4C5BA40" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A80F01FA-FDEB-465F-8E75-94F230CCA628",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55" : ""
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++54C23D1" : "",
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++5DB4676" : "FunLive\/",
+    "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++4C5BA40" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "FunLive",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shouigou\/FunLive.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++4C5BA40"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shouigou\/FunLive.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++54C23D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shouigou\/FunLive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E43E691C00BF90A58E8CF725D83DCAFD38FBA55+++5DB4676"
     }
   ]
 }

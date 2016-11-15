@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileMiddleView" customModule="FunLive" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOV-Sd-ftb">
+                    <frame key="frameInset" minX="16" minY="14" width="62" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="观看历史"/>
+                    <connections>
+                        <action selector="viewHistoryButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="7l9-CM-4nz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJD-yJ-Pu8">
+                    <frame key="frameInset" minX="96" minY="14" width="62" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="关注管理"/>
+                    <connections>
+                        <action selector="followManageButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="SIL-WY-aOb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbm-YC-Xtq">
+                    <frame key="frameInset" minX="188" minY="14" width="62" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="我的任务"/>
+                    <connections>
+                        <action selector="myMissionAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="TNR-Nh-FWL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoE-0e-vCU">
+                    <frame key="frameInset" minX="275" minY="14" width="62" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="趣播充值"/>
+                    <connections>
+                        <action selector="chargeButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="iUh-fv-oEU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="chargeButton" destination="PoE-0e-vCU" id="bhp-HN-0ZO"/>
+                <outlet property="followManageButton" destination="DJD-yJ-Pu8" id="qRI-AG-Z2e"/>
+                <outlet property="myMission" destination="Bbm-YC-Xtq" id="gEP-C7-eJH"/>
+                <outlet property="viewHistoryButton" destination="iOV-Sd-ftb" id="HWh-tM-fv9"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-250.5"/>
+        </view>
+    </objects>
+</document>
